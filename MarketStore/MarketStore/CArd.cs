@@ -8,28 +8,22 @@ namespace MarketStore
 {
     public class Card
     {
-        public Card()
+        
+        public Card(string name,CardType type, decimal turnover)
         {
-        }
-
-        public Card(string name, string number, CardType type, decimal turnover)
-        {
-            this.HolderName = name;
-            this.Number = number;
+            this.HolderName = name;           
             this.Type = type;
             this.Turnover = turnover;
-            this.Discount = CalculateDiscountRateByType(this.Type);
+            this.DiscountRate = CalculateDiscountRateByType(this.Type);
         }
 
         public string HolderName { get; set; }
         public string Number { get; set; }
         public CardType Type { get; set; }
         public decimal Turnover { get; set; }
+        public decimal DiscountRate { get; set; }
 
-
-        public double Discount { get; set; }
-
-        private double CalculateDiscountRateByType(CardType type)
+        private decimal CalculateDiscountRateByType(CardType type)
         {
             switch (type)
             {
@@ -37,7 +31,7 @@ namespace MarketStore
 
                     if (this.Turnover >= 100 && this.Turnover < 300)
                     {
-                       return Constants.BronzeCardDiscount;
+                        return Constants.BronzeCardDiscount;
                     }
                     else if (this.Turnover >= 300)
                     {
@@ -47,14 +41,32 @@ namespace MarketStore
                     {
                         return Constants.BronzeCardInitialDiscount;
                     }
-                    
+
+
+
                 case CardType.Silver:
-                    return Constants.SilverCardInitialDiscount;
+                    if (this.Turnover >= 300)
+                    {
+                        return Constants.SilverCardDiscount;
+                    }
+                    else
+                    {
+                        return Constants.SilverCardInitialDiscount;
+                    }
+
                 case CardType.Gold:
-                    return Constants.GoldCardInitialDiscount;
+                    decimal addedDiscount = (decimal) this.Turnover / 100 + Constants.GoldCardInitialDiscount;
+                    if (addedDiscount < Constants.GoldCardMaxDiscount)
+                    {
+                        return addedDiscount;
+                    }
+                    else
+                    {
+                        return Constants.GoldCardMaxDiscount;
+                    }
 
                 default:
-                    return Constants.BronzeCardDiscount;
+                    throw new Exception();
             }
         }
     }

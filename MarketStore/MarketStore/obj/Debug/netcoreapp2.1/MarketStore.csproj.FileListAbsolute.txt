@@ -9,3 +9,14 @@ D:\MarketStore\MarketStore\MarketStore\obj\Debug\netcoreapp2.1\MarketStore.Assem
 D:\MarketStore\MarketStore\MarketStore\obj\Debug\netcoreapp2.1\MarketStore.AssemblyInfo.cs
 D:\MarketStore\MarketStore\MarketStore\obj\Debug\netcoreapp2.1\MarketStore.dll
 D:\MarketStore\MarketStore\MarketStore\obj\Debug\netcoreapp2.1\MarketStore.pdb
+D:\GitHub\Internship-Selection-Spring-2020\MarketStore\MarketStore\bin\Debug\netcoreapp2.1\MarketStore.deps.json
+D:\GitHub\Internship-Selection-Spring-2020\MarketStore\MarketStore\bin\Debug\netcoreapp2.1\MarketStore.runtimeconfig.json
+D:\GitHub\Internship-Selection-Spring-2020\MarketStore\MarketStore\bin\Debug\netcoreapp2.1\MarketStore.runtimeconfig.dev.json
+D:\GitHub\Internship-Selection-Spring-2020\MarketStore\MarketStore\bin\Debug\netcoreapp2.1\MarketStore.dll
+D:\GitHub\Internship-Selection-Spring-2020\MarketStore\MarketStore\bin\Debug\netcoreapp2.1\MarketStore.pdb
+D:\GitHub\Internship-Selection-Spring-2020\MarketStore\MarketStore\obj\Debug\netcoreapp2.1\MarketStore.csprojAssemblyReference.cache
+D:\GitHub\Internship-Selection-Spring-2020\MarketStore\MarketStore\obj\Debug\netcoreapp2.1\MarketStore.csproj.CoreCompileInputs.cache
+D:\GitHub\Internship-Selection-Spring-2020\MarketStore\MarketStore\obj\Debug\netcoreapp2.1\MarketStore.AssemblyInfoInputs.cache
+D:\GitHub\Internship-Selection-Spring-2020\MarketStore\MarketStore\obj\Debug\netcoreapp2.1\MarketStore.AssemblyInfo.cs
+D:\GitHub\Internship-Selection-Spring-2020\MarketStore\MarketStore\obj\Debug\netcoreapp2.1\MarketStore.dll
+D:\GitHub\Internship-Selection-Spring-2020\MarketStore\MarketStore\obj\Debug\netcoreapp2.1\MarketStore.pdb

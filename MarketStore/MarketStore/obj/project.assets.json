@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MarketStore\\MarketStore\\MarketStore\\MarketStore.csproj",
+      "projectUniqueName": "D:\\GitHub\\Internship-Selection-Spring-2020\\MarketStore\\MarketStore\\MarketStore.csproj",
       "projectName": "MarketStore",
-      "projectPath": "D:\\MarketStore\\MarketStore\\MarketStore\\MarketStore.csproj",
+      "projectPath": "D:\\GitHub\\Internship-Selection-Spring-2020\\MarketStore\\MarketStore\\MarketStore.csproj",
       "packagesPath": "C:\\Users\\Maria\\.nuget\\packages\\",
-      "outputPath": "D:\\MarketStore\\MarketStore\\MarketStore\\obj\\",
+      "outputPath": "D:\\GitHub\\Internship-Selection-Spring-2020\\MarketStore\\MarketStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
