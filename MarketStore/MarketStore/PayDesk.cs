@@ -43,10 +43,10 @@ namespace MarketStore
 
         private void ShowCustomerInfo()
         {
-            Console.WriteLine("Purchase value: "+this.PurchaseValue);
-            Console.WriteLine("Discount rate:  "+this.DiscountRate);
-            Console.WriteLine("Discount: "+this.Discount);
-            Console.WriteLine("Total: "+this.Total);
+            Console.WriteLine("Purchase value: "+this.PurchaseValue.ToString("C2"));
+            Console.WriteLine("Discount rate:  "+this.DiscountRate.ToString("P1"));
+            Console.WriteLine("Discount: "+this.Discount.ToString("C2"));
+            Console.WriteLine("Total: "+this.Total.ToString("C2"));
             Console.WriteLine();
         }
         private decimal SumTotalPrice(Customer customer)
