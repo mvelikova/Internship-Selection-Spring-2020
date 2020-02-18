@@ -1,0 +1,10 @@
+D:\MarketStore\MedianScore\MedianScore\bin\Debug\netcoreapp2.1\MedianScore.deps.json
+D:\MarketStore\MedianScore\MedianScore\bin\Debug\netcoreapp2.1\MedianScore.runtimeconfig.json
+D:\MarketStore\MedianScore\MedianScore\bin\Debug\netcoreapp2.1\MedianScore.runtimeconfig.dev.json
+D:\MarketStore\MedianScore\MedianScore\bin\Debug\netcoreapp2.1\MedianScore.dll
+D:\MarketStore\MedianScore\MedianScore\bin\Debug\netcoreapp2.1\MedianScore.pdb
+D:\MarketStore\MedianScore\MedianScore\obj\Debug\netcoreapp2.1\MedianScore.csproj.CoreCompileInputs.cache
+D:\MarketStore\MedianScore\MedianScore\obj\Debug\netcoreapp2.1\MedianScore.AssemblyInfoInputs.cache
+D:\MarketStore\MedianScore\MedianScore\obj\Debug\netcoreapp2.1\MedianScore.AssemblyInfo.cs
+D:\MarketStore\MedianScore\MedianScore\obj\Debug\netcoreapp2.1\MedianScore.dll
+D:\MarketStore\MedianScore\MedianScore\obj\Debug\netcoreapp2.1\MedianScore.pdb
