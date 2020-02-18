@@ -1,0 +1,9 @@
+The application starts when the Startup.cs file is run. Three customers* are created. After that for each customer a discount card* and items* are created. A paydesk* is created and customers are added  to it. At the paydesk each customer's purchase value, discountrate, discount and total value are  calculated and printed on the console.
+
+
+*
+class Customer has name, card and a list of items
+class Card has holder name, number, type(Brozne,Silver,Gold), turnover and discount rate(calculated from the turnover)
+class Item has name and price
+class PayDesk's properties(PurchaseValue, DiscountRate, Discount, Total) keep the data of the current customer and his purchase. It also have two public methods for adding customers, one private method that prints the information and one public method ProcessCustomers() that iterates all customers, calculates all needed values and then calls ShowCustomerInfo() to print them. 
+

@@ -55,7 +55,7 @@ namespace MarketStore
                     }
 
                 case CardType.Gold:
-                    decimal addedDiscount = (decimal) this.Turnover / 100 + Constants.GoldCardInitialDiscount;
+                    decimal addedDiscount = (decimal) this.Turnover / 10000 + Constants.GoldCardInitialDiscount;
                     if (addedDiscount < Constants.GoldCardMaxDiscount)
                     {
                         return addedDiscount;
